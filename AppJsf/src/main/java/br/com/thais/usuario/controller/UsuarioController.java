@@ -10,9 +10,9 @@ import javax.inject.Named;
 import org.apache.commons.lang3.StringUtils;
 
 import br.com.thais.model.UsuarioModel;
+import br.com.thais.repository.UsuarioRepository;
 import br.com.thais.repository.entity.UsuarioEntity;
 import br.com.thais.uteis.Uteis;
-import br.univel.thais.repository.UsuarioRepository;
 
 /**
  * Classe que controla a autenticação do Usuário

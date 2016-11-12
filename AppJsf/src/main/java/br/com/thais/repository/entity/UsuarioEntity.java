@@ -26,7 +26,7 @@ public class UsuarioEntity implements Serializable {
 	@Id
 	@GeneratedValue
 	@Column(name = "id_usuario")
-	private String codigo;
+	private Integer codigo;
 
 	@Column(name = "ds_login")
 	private String usuario;
@@ -34,11 +34,11 @@ public class UsuarioEntity implements Serializable {
 	@Column(name = "ds_senha")
 	private String senha;
 
-	public String getCodigo() {
+	public Integer getCodigo() {
 		return codigo;
 	}
 
-	public void setCodigo(String codigo) {
+	public void setCodigo(Integer codigo) {
 		this.codigo = codigo;
 	}
 

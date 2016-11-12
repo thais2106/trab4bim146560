@@ -60,7 +60,7 @@ CREATE TABLE tb_pessoa (
     id_pessoa integer NOT NULL,
     nm_pessoa character varying(70) NOT NULL,
     fl_sexo character(1) NOT NULL,
-    dt_cadastro date NOT NULL,
+    dt_cadastro timestamp NOT NULL,
     ds_email character varying(80) NOT NULL,
     ds_endereco character varying(200) NOT NULL,
     fl_origemcadastro character(1) NOT NULL,

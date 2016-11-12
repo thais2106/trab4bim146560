@@ -1,4 +1,4 @@
-package br.univel.thais.repository;
+package br.com.thais.repository;
 
 import java.io.Serializable;
 

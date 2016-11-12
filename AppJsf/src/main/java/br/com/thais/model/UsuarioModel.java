@@ -14,15 +14,15 @@ public class UsuarioModel implements Serializable {
 
 	private static final long serialVersionUID = 1L;
 
-	private String codigo;
+	private Integer codigo;
 	private String usuario;
 	private String senha;
 
-	public String getCodigo() {
+	public Integer getCodigo() {
 		return codigo;
 	}
 
-	public void setCodigo(String codigo) {
+	public void setCodigo(Integer codigo) {
 		this.codigo = codigo;
 	}
 
