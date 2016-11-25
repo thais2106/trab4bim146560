@@ -71,5 +71,15 @@ public class ConsultarPessoaController implements Serializable {
 		this.pessoaRepository.AlterarRegistro(this.pessoaModel);	
 		this.init();
 	}
+	
+	/*
+	 * Método que exclui um registro pessoa do banco de dados e atualiza dataTable
+	 * Ele é chamado pelo consultarPessoa.xhtml. Este método repassa o PessoalModel para o 
+	 * Repository excluir
+	 */
+	public void ExcluirPessoa(PessoaModel pessoaModel) {
+		this.pessoaRepository.ExcluirRegistro(pessoaModel.getCodigo());
+		this.pessoas.remove(pessoaModel);
+	}
 
 }
